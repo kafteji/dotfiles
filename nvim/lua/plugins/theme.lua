@@ -1,11 +1,9 @@
 return {
-  'navarasu/onedark.nvim',
-  priority = 1000,
+  'sainnhe/sonokai',
   lazy = false,
+  priority = 1000,
   config = function()
-    require('onedark').setup {
-      style = 'warmer',
-    }
-    require('onedark').load()
+    vim.g.sonokai_style = 'default'
+    vim.cmd.colorscheme 'sonokai'
   end,
 }
