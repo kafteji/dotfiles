@@ -175,5 +175,8 @@ return {
       vim.lsp.config(server, cfg)
       vim.lsp.enable(server)
     end
+    vim.diagnostic.config {
+      virtual_lines = true,
+    }
   end,
 }

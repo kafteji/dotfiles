@@ -40,6 +40,14 @@ return {
         maximum_padding = 5,
         maximum_length = 15,
         sort_by = 'insert_at_end',
+        offsets = {
+          {
+            filetype = 'neo-tree',
+            highlight = 'Directory',
+            text = ' Explorer ',
+            text_align = 'center',
+          },
+        },
       },
       highlights = {
         separator = {
