@@ -22,6 +22,7 @@ return {
     }
 
     local sources = {
+      formatting.clang_format,
       diagnostics.checkmake,
       formatting.prettier.with { filetypes = { 'html', 'json', 'yaml', 'markdown' } },
       formatting.stylua,
