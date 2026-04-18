@@ -13,4 +13,8 @@ return {
     config = true,
     opts = {},
   },
+  {
+    -- Hints Key bindings
+    'folke/which-key.nvim',
+  },
 }
