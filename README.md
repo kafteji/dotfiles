@@ -1,3 +1,3 @@
 # Dotfiles
 
-Personal development tools' configurations
+Configuration files for personal development tools.
