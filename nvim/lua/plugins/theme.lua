@@ -1,9 +1,9 @@
 return {
-  'sainnhe/sonokai',
+  'folke/tokyonight.nvim',
+  name = 'tokyonight',
   lazy = false,
   priority = 1000,
   config = function()
-    vim.g.sonokai_style = 'default'
-    vim.cmd.colorscheme 'sonokai'
+    vim.cmd.colorscheme 'tokyonight-storm'
   end,
 }
